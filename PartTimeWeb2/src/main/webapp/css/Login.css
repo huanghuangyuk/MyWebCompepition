@@ -28,7 +28,7 @@ li{
 }
 .other{
   text-align: left;
-  margin: 30px 0;
+  margin: 20px 0;
 }
 .wechat-png{
   /* width: 50px;
@@ -49,9 +49,16 @@ input,.log-a{
 }
 input{
   font-size: 18px;
+  margin-bottom: 26px;
 }
-input.password{
-  margin-top: 20px;
+.error{
+  font-size: 12px;
+  color: red;
+}
+.info p{
+  margin-top: -26px;
+  margin-left: 12px;
+  padding: 5px;
 }
 /* .info .log-a{
     text-align: center;
