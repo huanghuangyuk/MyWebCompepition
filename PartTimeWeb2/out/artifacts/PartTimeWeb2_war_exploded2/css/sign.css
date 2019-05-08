@@ -1,0 +1,91 @@
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, textarea, p, th, td, em, button {
+    margin: 0;
+    padding: 0;
+}
+/*body{
+  background-color: rgb(246, 246, 246);
+}
+.main{
+  width: 800px;
+  background-color: #fff;
+  margin: 50px auto;
+  padding: 50px;
+}
+form input{
+  width: 200px;
+  height: 28px;
+  margin-top: 5px;
+  padding-left: 5px;
+}*/
+body{
+  background: url(../statics/img/12.jpg) no-repeat ;
+  background-size: cover;
+}
+.main{
+  width: 800px;
+  height: 533px;
+  /* background-color: #fff; */
+  margin: 85px auto;
+  position: absolute;
+  left: 24%;
+}
+.main a{
+  width: 118px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: rgb(141,147,200);
+  font-weight: 700;
+  font-size: 18px;
+  background-color: #fafbfd;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 20px;
+  position: absolute;
+  left: 32%;
+  bottom: 65px;
+}
+a:hover{
+  background-color: rgb(241, 241, 250);
+}
+#a{
+  color: #fafbfd;
+  background-color: rgb(141,147,200);
+  left: 32%;
+}
+#a:hover{
+  background-color: rgb(151,156,204);
+}
+
+.left,.right{
+  float: left;
+  box-shadow: 10px 10px 20px #3e3e3ea1;
+  /* position: absolute; */
+}
+
+.left{
+  width: 400px;
+  height: 533px;
+  position:relative;
+  top:50%;
+	animation:leftmove 1.5s linear 1s forwards;
+}
+.right{
+  width: 400px;
+  height: 533px;
+  position:relative;
+  bottom:50%;
+  animation:rightmove 1.5s linear 1s forwards;
+}
+@keyframes leftmove
+{
+	from {opacity:0; top:50%;}
+	to {opacity:1;top:0;}
+}
+
+@keyframes rightmove
+{
+	from {opacity:0;bottom:50%;}
+	to {opacity:1;bottom:0;}
+}
