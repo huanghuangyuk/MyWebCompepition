@@ -4,49 +4,38 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>韶院兼职-788789登录123456</title>
+  <title>韶院兼职-登录</title>
   <link rel="stylesheet" href="css\Login.css">
+  <script type="text/javascript" src="js/login.js">
+
+  </script>
 </head>
 <body>
   <div class="main">
     <div class="info">
       <!-- <p>登录</p> -->
       <div class="logo"><img src="img/job.png" alt="" width="110px"></div>
-      <form action="/login">
-          <!-- <input type="text" class="phone-num" placeholder="Telephone Number"><br>
-          <input type="password" class="password" placeholder="Password"> -->
-          <!-- <input type="text" class="phone-num" placeholder="请输入手机号码" onfocus="hideErrorInfo('error-phone-num');" name="Telephone Number" id="Phone-num"><br> -->
-          <!-- <div class="error error-phone-num"></div> -->
-          <!-- <input type="password" class="password" placeholder="请输入密码"> -->
-          <!-- <div class="error error-phone-num"></div> -->
-          <!--手机号-->
-       <ul class="phoneMumber-list wall-form-ipt-list active">
-         <li>
-           <input type="hidden" name="lt" value="">
-           <input type="hidden" name="execution" value="e1s1">
-           <input type="hidden" name="_eventId" value="submit">
-           <i></i>
-           <input type="text" placeholder="请输入手机号"  class="phone-num input-error" name="username" id="lUsername" value="" onfocus="hideErrorInfo('form-ipt-error-l-username');" >
-           <!-- <span class="form-ipt-error is-visible" id="form-ipt-error-l-username">请输入手机号</span> -->
-         </li>
-         <li class="clearPassword-ico">
-           <input type="password" placeholder="请输入密码" class="password input-error" name="password" id="lPassword" onfocus="hideErrorInfo('form-ipt-error-l-password');">
-           <!-- <label class="form-ipt-error is-visible" id="form-ipt-error-l-password">请输入密码</label> -->
-           <i class="pasword-icon"></i>
-         </li>
-       </ul>
-       <!--手机号-->
+      <div id="form-login">
+        <form action="" onsubmit="return dosubmit()" method="post">
+            <!-- <input type="text" class="phone-num" placeholder="Telephone Number"><br>
+            <input type="password" class="password" placeholder="Password"> -->
+            <input type="text" class="form-control" id="phone" placeholder="请输入手机号码" /><br>
+            <p class="error error-phone-num" id="tip-1" style="display:none" >手机号输入错误</p>
+            <input type="password" class="form-control" id="password" placeholder="请输入密码" />
+            <p class="error error-pwd-num" id="tip-2" style="display:none" >密码错误</p>
 
-          <div class="other">没有账号？
-            <a href="sign.jsp">注册一个</a>
-            <a href="#" class="wechat-png">
-              <img src="img/wechat3.png" alt="" width="32px">
-            </a>
-          </div>
-          <!-- <a href="#" class="log-a">Login</a> -->
-          <a href="#" class="log-a">登录</a>
-      </form>
+            <div class="other">没有账号？
+              <a href="sign.html">注册一个</a>
+              <a href="#" class="wechat-png">
+                <img src="img/wechat3.png" alt="" width="32px">
+              </a>
+            </div>
+            <!-- <a href="#" class="log-a">Login</a> -->
+            <a href="#" class="log-a">登录</a>
+        </form>
+      </div>
     </div>
   </div>
 </body>
 </html>
+
