@@ -1,0 +1,77 @@
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, textarea, p, th, td, em, button {
+    margin: 0;
+    padding: 0;
+}
+body{
+  background: url(../statics/img/12.jpg) no-repeat ;
+  background-size: cover;
+}
+.main{
+  width: 700px;
+  height: 433px;
+  background-color: #fff;
+  /* border-radius: 10px; */
+  box-shadow: 10px 10px 20px #3e3e3ea1;
+  margin: 85px auto;
+  padding: 50px;
+}
+.info{
+  width: 310px;
+  margin: 0px auto;
+}
+li{
+  list-style: none;
+}
+.logo{
+  width: 95px;
+  margin: 15px auto;
+}
+.other{
+  text-align: left;
+  margin: 30px 0;
+}
+.wechat-png{
+  /* width: 50px;
+  height: 50px;
+  display: inline-block;
+  background: url(../img/wechat.png) no-repeat; */
+  float: right;
+  margin-top: -6px;
+  margin-right: -15px;
+}
+input,.log-a{
+  width: 290px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 24px;
+  padding: 8px 18px;
+  outline: none;
+}
+input{
+  font-size: 18px;
+}
+input.password{
+  margin-top: 20px;
+}
+/* .info .log-a{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #6280f6;
+    font-size: 24px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+} */
+a.log-a{
+      text-align: center;
+      color: rgb(255, 255, 255);
+      background-color: rgb(141,147,200);
+      font-size: 24px;
+      text-decoration: none;
+      display: inline-block;
+      border: 1px;
+      border-radius: 20px;
+}
+a.log-a:hover{
+  background-color: rgb(151,156,204);
+}
